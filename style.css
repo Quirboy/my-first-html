@@ -1,0 +1,60 @@
+body{
+   background-color: ghostwhite;
+   margin: 0px;
+   font-family: cursive;        
+}
+#introtext{
+    color: rgba(255, 221, 0, 0.542);
+}
+
+.highlight1{
+    color: rgb(255, 0, 234);
+    font-weight: bold;
+}
+
+.highlight2{
+    color: rgb(0, 217, 255);
+    font-weight: bold;
+}
+
+.highlight3{
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.highlight4{
+    color: rgb(9, 255, 0);
+    font-weight: bold;
+}
+
+.highlight5{
+    color: rgb(0, 34, 255);
+    font-weight: bold;
+}
+
+.highlight6{
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+}
+
+.highlight7{
+    color: yellow;
+    font-weight: bold;
+}
+
+#introcontainer{
+    width: 570;
+    float: left;
+}
+#pfp{
+    float: left;
+}
+
+.reset{
+    clear: both;
+}
+
+#hobby{
+    width: 510;
+    float: left;
+}
