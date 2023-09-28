@@ -1,10 +1,7 @@
-body{
-   background-color: ghostwhite;
-   margin: 0px;
-   font-family: cursive;        
-}
-#introtext{
-    color: rgba(255, 221, 0, 0.542);
+body {
+    background-color: #FFFFFF;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .highlight1{
@@ -40,21 +37,91 @@ body{
 .highlight7{
     color: yellow;
     font-weight: bold;
+} 
+
+p {
+    margin: 0px;
 }
 
-#introcontainer{
-    width: 570;
-    float: left;
-}
-#pfp{
-    float: left;
+td {
+    border: 1px solid #000000;
 }
 
-.reset{
+
+.reset {
     clear: both;
 }
 
-#hobby{
-    width: 510;
+.social {
+    float: left;
+    width: 56px;
+    height: 56px;
+    background-color: #FFFFFF;
+    text-align: center;
+    margin: 0px 0px 0px 18px;
+}
+
+
+
+
+#info {
+    width: 850px;
+    margin: 0px auto;
+    padding: 20px 0px 0px 0px;
+    background-color: #fd000000;
+}
+
+
+#nav {
+    height: 30px;
+    margin: 0px 0px 10px 0px;
+}
+
+#nav a {
+    padding: 10px;
+    background: #ff1e01;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+#nav a:hover {
+    background: #000000;
+}
+
+
+#mainText {
+    color: #000000;
+}
+
+#intro {
+    width: 470px;
+    float: left;
+    margin: 0px 0px 0px 37px;
+}
+
+#mefoto {
+    float: left;
+}
+
+
+#hobby {
+    width: 420px;
+    height: 151px;
+    float: left;
+    margin: 44px 0px 42px 0px;
+}
+
+#hobby h2 {
+    margin: 0px;
+}
+
+#hobiefoto {
+    float: left;
+    margin: 44px 0px 42px 53px;
+}
+
+
+#meme {
     float: left;
 }
